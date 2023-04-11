@@ -5,23 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-    body{text-align: center;}
-    label{
-        margin-top: 2%;
-    }
-    table{margin-left: 30%;}
-    button{border: solid black 1 px;
-    box-shadow: 0 1px 5px 1px; fill: white; margin: 1%;}
-h1{margin: 5%;}
-table{border: 1px solid black; }
+    <link rel="stylesheet" href="style.css">
+    <style> 
    </style>
 </head>
 <body>
-    <h1>Student Registration Form</h1>
+   <header > <h1 class="head">Student Registration Form</h1> </header>
     <form action="">
-        <label for="name" >Name : </label>
-        <input type="text" placeholder="name" name="name">
+        <label class="name" for="name" >Name : </label>
+        <input class="name" type="text" placeholder="name" name="name">
         <br><br>
         <label for="phone_no">Phone No. :</label>
         <input type="number" maxlength="12" minlength="10" placeholder="phone no."
@@ -49,15 +41,15 @@ table{border: 1px solid black; }
         </select>
         <br><br>
         <label for="hobbies">Hobbies :</label>
-        <input type="checkbox" id="hobby"> Reading
-        <input type="checkbox" id="hobby"> Sketching
-        <input type="checkbox" id="hobby"> Sports
-        <input type="checkbox" id="hobby"> Singing
+        <input type="checkbox" > Reading
+        <input type="checkbox" > Sketching
+        <input type="checkbox" > Sports
+        <input type="checkbox"> Singing
         <br><br>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
     </form>
-    <h1>Student Records</h1>
+    <h1 class="h">Student Records</h1>
     <table >
         <tr ><th>S.No.</th><th>Name</th> <th>Phone No.</th> <th>Gender</th>
         <th>City</th> <th>Hobbies</th></tr>
